@@ -1,0 +1,12 @@
+{
+  "extends": "@pancakeswap/tsconfig/base",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["**/*.test.ts", "./dist/**"]
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "@pancakeswap/tsconfig/nextjs.json",
+  "include": ["next-env.d.ts"],
+  "compilerOptions": {
+    "target": "ES2015",
+    "baseUrl": "./",
+    "paths": {
+      "*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
